@@ -1,11 +1,14 @@
 const express = require('express');
 const mongoose = require('mongoose');
 require('dotenv').config();
+var cors = require('cors')
 
 const route = require('./routes/route');
 
 const app = express();
-route(app);
+route(app, cors);
+
+app.use(cors())
 
 // MongoDB connection
 const uri = process.env.MONGO_URI;
@@ -29,6 +32,6 @@ async function main() {
 
 main();
 
-app.listen(3000, () => {
+app.listen(4000, () => {
     console.log('Server is running at port 3000');
 });

@@ -1,0 +1,107 @@
+[2025/05/11 08:17:38.465] 
+##################################################################################
+############################## Ventoy2DiskX86  #############################
+##################################################################################
+[2025/05/11 08:17:38.465] Current Directory <C:\Users\c9har\Downloads\ventoy-1.1.05-windows\ventoy-1.1.05>
+[2025/05/11 08:17:38.465] Exe file path <C:\Users\c9har\Downloads\ventoy-1.1.05-windows\ventoy-1.1.05\Ventoy2Disk.exe>
+[2025/05/11 08:17:38.465] Current directory check OK.
+[2025/05/11 08:17:38.477] Current directory:<C:\Users\c9har\Downloads\ventoy-1.1.05-windows\ventoy-1.1.05>
+[2025/05/11 08:17:38.483] ######### Current Ventoy Version: Ventoy2DiskX86 1.1.05 ########
+[2025/05/11 08:17:38.497] id=5168/4812
+[2025/05/11 08:17:38.507] PPath:<C:\Windows\explorer.exe>
+[2025/05/11 08:17:38.507] PSize:<4592136 4484KB>
+[2025/05/11 08:17:38.523] Lunch main process 0
+[2025/05/11 08:17:38.528] Control Flag: 0 1 1
+[2025/05/11 08:17:38.539] Windows Version: <<Windows 10 Pro, 64-bit (Build 19041.508)>>
+[2025/05/11 08:17:38.549] 
+===================== Enum All PhyDrives =====================
+[2025/05/11 08:17:38.561] RegOpenKeyExA <SYSTEM\CurrentControlSet\Services\disk\Enum> Ret:0
+[2025/05/11 08:17:38.571] RegQueryValueExA <Count> ret:0  Size:4 Value:2
+[2025/05/11 08:17:38.582] GetPhysicalDriveCount: 2
+[2025/05/11 08:17:38.587] Logical Drives: 0x3c
+[2025/05/11 08:17:38.592] LogicalDrive:\\.\C: PhyDrive:1 Num:1 Offset:122683392 ExtentLength:255376151040
+[2025/05/11 08:17:38.604] C --> 1
+[2025/05/11 08:17:38.613] LogicalDrive:\\.\D: PhyDrive:0 Num:1 Offset:677380096 ExtentLength:471180816384
+[2025/05/11 08:17:38.613] D --> 0
+[2025/05/11 08:17:38.629] LogicalDrive:\\.\E: PhyDrive:0 Num:1 Offset:471860248576 ExtentLength:178256531968
+[2025/05/11 08:17:38.635] E --> 0
+[2025/05/11 08:17:38.635] LogicalDrive:\\.\F: PhyDrive:0 Num:1 Offset:650118168576 ExtentLength:350084923392
+[2025/05/11 08:17:38.646] F --> 0
+[2025/05/11 08:17:38.656] Create file Handle:00000118 \\.\PhysicalDrive0 status:0
+[2025/05/11 08:17:38.667] PHYSICALDRIVE0 size 1000204886016 bytes
+[2025/05/11 08:17:38.678] Create file Handle:0000010C \\.\PhysicalDrive1 status:0
+[2025/05/11 08:17:38.688] PHYSICALDRIVE1 size 256060514304 bytes
+[2025/05/11 08:17:38.699] PhyDrv:0 BusType:SATA Removable:0 Size:1024GB(1000204886016) Sector:512/4096 Name: TOSHIBA MQ04ABF100
+[2025/05/11 08:17:38.699] PhyDrv:1 BusType:Nvme Removable:0 Size:256GB(256060514304) Sector:512/4096 Name: SPCC M.2 PCIe SSD
+[2025/05/11 08:17:38.710] LogicalDrive:\\.\C: PhyDrive:1 Num:1 Offset:122683392 ExtentLength:255376151040
+[2025/05/11 08:17:38.710] Logical Drive:C  ===> PhyDrive:1
+[2025/05/11 08:17:38.725] LogicalDrive:\\.\D: PhyDrive:0 Num:1 Offset:677380096 ExtentLength:471180816384
+[2025/05/11 08:17:38.731] Logical Drive:D  ===> PhyDrive:0
+[2025/05/11 08:17:38.742] LogicalDrive:\\.\E: PhyDrive:0 Num:1 Offset:471860248576 ExtentLength:178256531968
+[2025/05/11 08:17:38.747] Logical Drive:E  ===> PhyDrive:0
+[2025/05/11 08:17:38.757] LogicalDrive:\\.\F: PhyDrive:0 Num:1 Offset:650118168576 ExtentLength:350084923392
+[2025/05/11 08:17:38.768] Logical Drive:F  ===> PhyDrive:0
+[2025/05/11 08:17:38.774] < TOSHIBA MQ04ABF100> is filtered for not USB type.
+[2025/05/11 08:17:38.789] < SPCC M.2 PCIe SSD> is filtered for not USB type.
+[2025/05/11 08:17:38.930] Load languages from json file ...
+[2025/05/11 08:17:38.941] language json file len:276765 json parse:0
+[2025/05/11 08:17:38.951] Total 51 languages ...
+[2025/05/11 08:17:39.066] Courier New font <C:\Windows\Fonts\couri.ttf> exist OK.
+[2025/05/11 08:17:39.079] system_dir=<C:\Windows\system32>
+[2025/05/11 08:17:39.092] sysnative_dir=<C:\Windows\Sysnative>
+[2025/05/11 08:17:39.099] LoadLibrary shell32.dll.mui SUCCESS
+[2025/05/11 08:17:39.106] SetAlertPromptHook SUCCESS
+[2025/05/11 08:18:15.284] 
+##################################################################################
+############################## Ventoy2DiskX86  #############################
+##################################################################################
+[2025/05/11 08:18:15.284] Current Directory <C:\Users\c9har\Downloads\ventoy-1.1.05-windows\ventoy-1.1.05>
+[2025/05/11 08:18:15.284] Exe file path <C:\Users\c9har\Downloads\ventoy-1.1.05-windows\ventoy-1.1.05\Ventoy2Disk.exe>
+[2025/05/11 08:18:15.284] Current directory check OK.
+[2025/05/11 08:18:15.293] Current directory:<C:\Users\c9har\Downloads\ventoy-1.1.05-windows\ventoy-1.1.05>
+[2025/05/11 08:18:15.303] ######### Current Ventoy Version: Ventoy2DiskX86 1.1.05 ########
+[2025/05/11 08:18:15.315] id=5992/4812
+[2025/05/11 08:18:15.322] PPath:<C:\Windows\explorer.exe>
+[2025/05/11 08:18:15.330] PSize:<4592136 4484KB>
+[2025/05/11 08:18:15.339] Lunch main process 0
+[2025/05/11 08:18:15.350] Control Flag: 0 1 1
+[2025/05/11 08:18:15.357] Set Ventoy FS ClusterSize 0
+[2025/05/11 08:18:15.365] Windows Version: <<Windows 10 Pro, 64-bit (Build 19041.508)>>
+[2025/05/11 08:18:15.371] 
+===================== Enum All PhyDrives =====================
+[2025/05/11 08:18:15.381] RegOpenKeyExA <SYSTEM\CurrentControlSet\Services\disk\Enum> Ret:0
+[2025/05/11 08:18:15.389] RegQueryValueExA <Count> ret:0  Size:4 Value:2
+[2025/05/11 08:18:15.396] GetPhysicalDriveCount: 2
+[2025/05/11 08:18:15.402] Logical Drives: 0x3c
+[2025/05/11 08:18:15.411] LogicalDrive:\\.\C: PhyDrive:1 Num:1 Offset:122683392 ExtentLength:255376151040
+[2025/05/11 08:18:15.417] C --> 1
+[2025/05/11 08:18:15.424] LogicalDrive:\\.\D: PhyDrive:0 Num:1 Offset:677380096 ExtentLength:471180816384
+[2025/05/11 08:18:15.430] D --> 0
+[2025/05/11 08:18:15.439] LogicalDrive:\\.\E: PhyDrive:0 Num:1 Offset:471860248576 ExtentLength:178256531968
+[2025/05/11 08:18:15.446] E --> 0
+[2025/05/11 08:18:15.454] LogicalDrive:\\.\F: PhyDrive:0 Num:1 Offset:650118168576 ExtentLength:350084923392
+[2025/05/11 08:18:15.460] F --> 0
+[2025/05/11 08:18:15.467] Create file Handle:00000104 \\.\PhysicalDrive0 status:0
+[2025/05/11 08:18:15.474] PHYSICALDRIVE0 size 1000204886016 bytes
+[2025/05/11 08:18:15.481] Create file Handle:00000104 \\.\PhysicalDrive1 status:0
+[2025/05/11 08:18:15.487] PHYSICALDRIVE1 size 256060514304 bytes
+[2025/05/11 08:18:15.494] PhyDrv:0 BusType:SATA Removable:0 Size:1024GB(1000204886016) Sector:512/4096 Name: TOSHIBA MQ04ABF100
+[2025/05/11 08:18:15.502] PhyDrv:1 BusType:Nvme Removable:0 Size:256GB(256060514304) Sector:512/4096 Name: SPCC M.2 PCIe SSD
+[2025/05/11 08:18:15.508] LogicalDrive:\\.\C: PhyDrive:1 Num:1 Offset:122683392 ExtentLength:255376151040
+[2025/05/11 08:18:15.514] Logical Drive:C  ===> PhyDrive:1
+[2025/05/11 08:18:15.519] LogicalDrive:\\.\D: PhyDrive:0 Num:1 Offset:677380096 ExtentLength:471180816384
+[2025/05/11 08:18:15.526] Logical Drive:D  ===> PhyDrive:0
+[2025/05/11 08:18:15.533] LogicalDrive:\\.\E: PhyDrive:0 Num:1 Offset:471860248576 ExtentLength:178256531968
+[2025/05/11 08:18:15.539] Logical Drive:E  ===> PhyDrive:0
+[2025/05/11 08:18:15.546] LogicalDrive:\\.\F: PhyDrive:0 Num:1 Offset:650118168576 ExtentLength:350084923392
+[2025/05/11 08:18:15.553] Logical Drive:F  ===> PhyDrive:0
+[2025/05/11 08:18:15.560] < TOSHIBA MQ04ABF100> is filtered for not USB type.
+[2025/05/11 08:18:15.566] < SPCC M.2 PCIe SSD> is filtered for not USB type.
+[2025/05/11 08:18:15.611] Load languages from json file ...
+[2025/05/11 08:18:15.621] language json file len:276765 json parse:0
+[2025/05/11 08:18:15.630] Total 51 languages ...
+[2025/05/11 08:18:15.717] Courier New font <C:\Windows\Fonts\couri.ttf> exist OK.
+[2025/05/11 08:18:15.727] system_dir=<C:\Windows\system32>
+[2025/05/11 08:18:15.734] sysnative_dir=<C:\Windows\Sysnative>
+[2025/05/11 08:18:15.744] LoadLibrary shell32.dll.mui SUCCESS
+[2025/05/11 08:18:15.754] SetAlertPromptHook SUCCESS
