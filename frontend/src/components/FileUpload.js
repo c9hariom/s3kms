@@ -22,6 +22,7 @@ const FileUpload = () => {
         formData.append('file', file);
 
         try {
+            setMessage('Uploading File')
             const res = await axios.post('http://localhost:4000/upload', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
@@ -29,8 +30,9 @@ const FileUpload = () => {
                 }
             });
 
+            
             console.log(res.data);  // ✅ use res.data instead of res.json()
-            setMessage('File upload success');
+            setMessage(res.data.s3Response.Location +' | '+ res.data.s3Response.SSEKMSKeyId);
 
         } catch (error) {
             console.log('Upload error:', error);
