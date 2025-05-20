@@ -1,5 +1,7 @@
-#Backend env file
+# Backend env file
 
 MONGO_URI=
+
 ACCESS_KEY=
+
 SECRET_ACCESS_KEY=
