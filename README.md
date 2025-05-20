@@ -1,1 +1,5 @@
-in backend/.env - MONGO_URI = your url
+#Backend env file
+
+MONGO_URI=
+ACCESS_KEY=
+SECRET_ACCESS_KEY=
