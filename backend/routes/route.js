@@ -56,7 +56,6 @@ module.exports = (app, cors) => {
         });
         await newFile.save();
         fs.unlinkSync(file.path);
-
-        res.status(200).json({ message: 'File uploaded and saved', s3Response });
+        return res.status(200).json({ message: 'File uploaded to s3 and deleted from Server', s3Response , newFile });
     })
 };
